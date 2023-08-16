@@ -16,28 +16,22 @@ LLama 모델의 학습 데이터에 한국어 데이터의 절대적인 양이 �
 
 학습 리소스는 아래와 같습니다.
 
-FreeCodeCamp Org - Reinforcement Learning
-https://youtu.be/ELE2_Mftqoc
+[FreeCodeCamp Org - Reinforcement Learning](https://youtu.be/ELE2_Mftqoc)
 
-Stanford CS234 - Reinforcement Learning
-https://youtu.be/FgzM3zpZ55o
+[Stanford CS234 - Reinforcement Learning](https://youtu.be/FgzM3zpZ55o)
 
-pytorch tutorial - Reinforcement Learning
-https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html
+[pytorch tutorial - Reinforcement Learning](https://pytorch.org/tutorials/intermediate/reinforcement_q_learning.html)
 
-Hugging Face Course - Reinforcement Learning
-https://huggingface.co/learn/deep-rl-course/unit0/introduction
+[Hugging Face Course - Reinforcement Learning](https://huggingface.co/learn/deep-rl-course/unit0/introduction)
 
 ### PEFT
 
 저희의 대상 모델은 llama2 - 7b, 13.5b 모델이 될 것입니다. 7b 모델의 경우 제일 작은 모델이지만 역시 단일 기기에서 전체 파라미터를 파인 튜닝하는 것은 불가능에 가깝습니다. (fp32일 경우 모델의 크기만 28Gib..) 
 따라서 Lora를 통한 학습이 필수 불가결합니다. 저희는 허깅페이스의 PEFT 라이브러리를 사용할 예정입니다.
 
-Lora 논문리뷰
-https://www.youtube.com/watch?v=BJqwmDpa0wM
+[Lora 논문리뷰](https://www.youtube.com/watch?v=BJqwmDpa0wM)
 
-PEFT 튜토리얼
-https://huggingface.co/docs/peft/index
+[PEFT 튜토리얼](https://huggingface.co/docs/peft/index)
 
 ### 한국어 llama2 모델
 
