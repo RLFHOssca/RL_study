@@ -43,7 +43,13 @@
 얻어낸 기대 보상의 합을 극대화하는 것을 의미한다. 이를 수식으로 나타내면 아래와 같다.
 
 ```math
-$\sum$
+\begin{align}
+R_{(\tau)} = R_{t+1} + R_{t+2} + R_{t+3} + ... \\
+\\
+is Equivalent \\
+\\
+R_{(\tau)} = \sum_{k=0}^{\infty} r_{t+k+1}
+\end{align}
 ```
 
 
